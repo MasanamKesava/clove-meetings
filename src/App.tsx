@@ -11,6 +11,7 @@ import NewMeeting from "./pages/NewMeeting";
 import AdminPage from "./pages/AdminPage";
 import SettingsPage from "./pages/SettingsPage";
 import NotFound from "./pages/NotFound";
+import MeetingCompactPage from "./pages/MeetingCompactPage";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/meetings/:id" element={<MeetingDetail />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/meetings/:id/edit" element={<NewMeeting />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

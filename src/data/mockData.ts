@@ -1,11 +1,11 @@
 import { User, Meeting, Department, ActionItem } from '@/types/meeting';
 
 export const departments: Department[] = [
-  { id: '1', name: 'Engineering', color: 'hsl(168 60% 38%)' },
+  { id: '1', name: 'PMC', color: 'hsl(168 60% 38%)' },
   { id: '2', name: 'Design', color: 'hsl(280 65% 50%)' },
-  { id: '3', name: 'Marketing', color: 'hsl(38 92% 50%)' },
-  { id: '4', name: 'Sales', color: 'hsl(199 89% 48%)' },
-  { id: '5', name: 'HR', color: 'hsl(340 65% 50%)' },
+  { id: '3', name: 'Assistance Engineering', color: 'hsl(38 92% 50%)' },
+  { id: '4', name: 'Deputy Engineerin', color: 'hsl(199 89% 48%)' },
+  { id: '5', name: 'Contractor', color: 'hsl(340 65% 50%)' },
 ];
 
 export const users: User[] = [
